@@ -1,0 +1,20 @@
+from requests.auth import HTTPBasicAuth
+
+user = HTTPBasicAuth('', '')
+# register in https://github.com/developer/register
+
+keyword = []
+#  blacklist
+
+whitelist = open('./whitelist.txt', 'r').readlines()
+# create whitelist.txt at first
+
+email = {'username': '', 'password': ''}
+# email from
+
+rec = ''
+# email to
+
+CC = ''
+# email CC
+
